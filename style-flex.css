@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upper-container{
+    background-color: #63a1bf;
+    height: 100px;
+    width: 100%;
+}
+.middle-container{
+    width: 100%;
+    align-items: stretch;
+}
+.left-container{
+    background-color: #abec81;
+    min-height: 550px;
+    width: 80%;
+}
+.right-container{
+    min-height: 550px;
+    width: 20%;
+}
+.lower-container{
+    height: 70px;
+    width: 100%;
+}
+p{
+    font-size: 25px;
+    color: rgb(5, 21, 22);
+    font-weight: bold;
+}
